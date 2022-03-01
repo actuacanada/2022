@@ -1,0 +1,23 @@
+:root .cog-cognito {
+  --negative: #f66;
+  --negative-reverse: white;
+  --highlight: #41B883;
+  --highlight-reverse: white;
+  --gutter: 30px;
+  --border-radius: 5px;
+  --icon-weight: .3;
+  --speed: 2s;
+  --button-primary__border-radius: 25px;
+  --button-primary__background-color: #000;
+  --button-primary__border-color: #34495E;
+  --button-secondary__border-radius: 0;
+  --button-secondary__background-color: #41B883;
+  --button-secondary__color: white;
+  --button-secondary__border-color: #41B883;
+  --input__background-color: #f6f6f6;
+  --input__border-width: 2px;
+  --input__border-color: #cbd1cb;
+  --input__padding-v: 12px;
+  --input__padding-h: 15px;
+  --toggle__border-radius: 40px;
+}
