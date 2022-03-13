@@ -1,23 +1,44 @@
-:root .cog-cognito {
-  --negative: #f66;
-  --negative-reverse: white;
-  --highlight: #41B883;
-  --highlight-reverse: white;
-  --gutter: 30px;
-  --border-radius: 5px;
-  --icon-weight: .3;
-  --speed: 2s;
-  --button-primary__border-radius: 25px;
-  --button-primary__background-color: #000;
-  --button-primary__border-color: #34495E;
-  --button-secondary__border-radius: 0;
-  --button-secondary__background-color: #41B883;
-  --button-secondary__color: white;
-  --button-secondary__border-color: #41B883;
-  --input__background-color: #f6f6f6;
-  --input__border-width: 2px;
-  --input__border-color: #cbd1cb;
-  --input__padding-v: 12px;
-  --input__padding-h: 15px;
-  --toggle__border-radius: 40px;
+
+:root {
+  --c-teal: #00b8a9;
+  --c-dark-blue: #03036d;
+  --c-light-blue: #5360f2;
+  --c-pink: #ffc3d0;
+
+  --default-fonts: 'Montserrat', sans-serif;
+
+  --heading__font-weight: 400;
+}
+
+
+
+ #actuaform .cog-cognito {
+
+   /*FORM STYLES*/
+   --form__margins:0;
+     margin-left:var(--form__margins);
+
+   /*FONTS*/
+    --font-family: var(--default-fonts);
+    --header__font-family: var(--default-fonts);
+    --heading__font-family: var(--default-fonts);
+    --label__font-family: var(--default-fonts);
+    --button-primary__font-family: var(--default-fonts);
+    --button-secondary__font-family: var(--default-fonts);
+
+    /*TEXTCOLORS*/
+    --a__color: var(--c-light-blue);
+    --heading__color: var(--c-dark-blue);
+    --label__color:  var(--c-dark-blue);
+    /*BUTTONS*/
+    --button-primary__background-color: var(--c-teal);
+    --button-primary__border-color: var(--c-teal);
+    --button-primary__color: var(--c-dark-blue);
+}
+#actuaform .cog-button--primary:hover{
+  background-color: var(--c-pink);
+  border-color: var(--c-pink);
+}
+#actuaform h1{
+  font-weight:700!important;
 }
