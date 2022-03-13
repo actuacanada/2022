@@ -12,7 +12,7 @@
 
 
 
- #actuaform .cog-cognito {
+ #root .cog-cognito {
 
    /*FORM STYLES*/
    --form__margins:0;
