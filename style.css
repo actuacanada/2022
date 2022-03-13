@@ -4,19 +4,18 @@
   --c-dark-blue: #03036d;
   --c-light-blue: #5360f2;
   --c-pink: #ffc3d0;
-
   --default-fonts: 'Montserrat', sans-serif;
-
   --heading__font-weight: 400;
+  --default-font-size: 1.1rem;
+
 }
 
-
-
- #actuaform .cog-cognito {
+:root .cog-cognito {
 
    /*FORM STYLES*/
    --form__margins:0;
-     margin-left:var(--form__margins);
+   margin-left:var(--form__margins);
+   --form__width: 1400px;
 
    /*FONTS*/
     --font-family: var(--default-fonts);
@@ -26,19 +25,39 @@
     --button-primary__font-family: var(--default-fonts);
     --button-secondary__font-family: var(--default-fonts);
 
-    /*TEXTCOLORS*/
+    /*FONT SIZES*/
+    --font-size: var(--default-font-size);
+    --h2__font-size: 1.5em;
+
+    /*FONT WEIGHTS*/
+    --a__font-weight: bold;
+    --highlight-reverse: #000000;
+
+    /*FONT COLORS*/
     --a__color: var(--c-light-blue);
     --heading__color: var(--c-dark-blue);
     --label__color:  var(--c-dark-blue);
+    --highlight: var(--c-light-blue);
+    --highlight-reverse: #FFF;
+
+
     /*BUTTONS*/
     --button-primary__background-color: var(--c-teal);
     --button-primary__border-color: var(--c-teal);
     --button-primary__color: var(--c-dark-blue);
+    --button-secondary__background-color: var(--c-teal);
+    --button-secondary__border-color: var(--c-teal);
+    --button-secondary__color: var(--c-dark-blue);
 }
-#actuaform .cog-button--primary:hover{
+:root .cog-cognito--styled .cog-button--primary:hover {
   background-color: var(--c-pink);
   border-color: var(--c-pink);
 }
-#actuaform h1{
+:root h1{
+  font-weight:500!important;
+  font-size:var(--h2__font-size)!important;
+
+}
+:root h2{
   font-weight:700!important;
 }
