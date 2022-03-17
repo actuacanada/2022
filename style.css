@@ -1,16 +1,14 @@
 
-:root {
+:root .cog-cognito {
+  /*COLOURS*/
   --c-teal: #00b8a9;
   --c-dark-blue: #03036d;
   --c-light-blue: #5360f2;
   --c-pink: #ffc3d0;
+  --c-white: #ffffff;
   --default-fonts: 'Montserrat', sans-serif;
   --heading__font-weight: 400;
   --default-font-size: 1.1rem;
-
-}
-
-:root .cog-cognito {
 
    /*FORM STYLES*/
    --form__margins:0;
@@ -38,7 +36,7 @@
     --heading__color: var(--c-dark-blue);
     --label__color:  var(--c-dark-blue);
     --highlight: var(--c-light-blue);
-    --highlight-reverse: #FFF;
+    --highlight-reverse: var(--c-White);
 
 
     /*BUTTONS*/
@@ -53,11 +51,10 @@
   background-color: var(--c-pink);
   border-color: var(--c-pink);
 }
-:root h1{
-  font-weight:500!important;
-  font-size:var(--h2__font-size)!important;
-
-}
-:root h2{
+:root .cog-cognito h1{
   font-weight:700!important;
+  font-size:var(--h2__font-size)!important;
+}
+:root .cog-cognito h2{
+  font-weight:500!important;
 }
