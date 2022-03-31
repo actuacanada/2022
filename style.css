@@ -1,10 +1,11 @@
-
 :root .cog-cognito {
   /*COLOURS*/
-  --c-teal: #00b8a9;
-  --c-dark-blue: #03036d;
-  --c-light-blue: #5360f2;
-  --c-pink: #ffc3d0;
+  --c-seafom: #00b8a9;
+  --c-cobalt: #03036d;
+  --c-oxford: #0f1757;
+  --c-charcoal: #303030;
+  --c-periwinkle: #5360f2;
+  --c-blush: #ffc3d0;
   --c-white: #ffffff;
   --c-mint: #46ebcd;
 
@@ -24,7 +25,7 @@
 
     /*FONT SIZES*/
     --font-size: var(--default-font-size);
-  --default-font-size: 1.1em;
+    --default-font-size: 1.1em;
     --h2__font-size: 1.5em;
 
     /*FONT WEIGHTS*/
@@ -33,24 +34,24 @@
     --highlight-reverse: #000000;
 
     /*FONT COLORS*/
-    --a__color: var(--c-light-blue);
-    --heading__color: var(--c-dark-blue);
-    --label__color:  var(--c-dark-blue);
-    --highlight: var(--c-light-blue);
+    --a__color: var(--c-periwinkle);
+    --heading__color: var(--c-cobalt);
+    --label__color:  var(--c-cobalt);
+    --highlight: var(--c-periwinkle);
     --highlight-reverse: var(--c-White);
 
 
     /*BUTTONS*/
     --button-primary__background-color: var(--c-mint);
     --button-primary__border-color: var(--c-mint);
-    --button-primary__color: var(--c-dark-blue);
+    --button-primary__color: var(--c-cobalt);
     --button-secondary__background-color: var(--c-mint);
     --button-secondary__border-color: var(--c-mint);
-    --button-secondary__color: var(--c-dark-blue);
+    --button-secondary__color: var(--c-cobalt);
 }
-:root .cog-cognito--styled .cog-button--primary:hover, .cog-button--secondary:hover  {
-  background-color: var(--c-pink);
-  border-color: var(--c-pink);
+:root .cog-cognito .cog-button:hover {
+  background-color: var(--c-blush)!important;
+  border-color: var(--c-blush)!important;
 }
 :root .cog-cognito h1{
   font-weight:700!important;
