@@ -48,7 +48,7 @@
     --button-secondary__border-color: var(--c-mint);
     --button-secondary__color: var(--c-dark-blue);
 }
-:root .cog-cognito--styled .cog-button--primary:hover {
+:root .cog-cognito--styled .cog-button--primary:hover, .cog-button--secondary:hover  {
   background-color: var(--c-pink);
   border-color: var(--c-pink);
 }
