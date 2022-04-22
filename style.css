@@ -62,7 +62,8 @@
 }
 :root .cog-cognito .cog-rating-scale table thead th  {
   vertical-align: middle!important;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding-right: 1em!important;
+  padding-left: 1em!important;
+  min-width:100px!important;
 }
 
