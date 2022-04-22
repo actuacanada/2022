@@ -60,3 +60,9 @@
 :root .cog-cognito h2{
   font-weight:500!important;
 }
+:root .cog-cognito .cog-rating-scale table thead th  {
+  vertical-align: middle!important;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
