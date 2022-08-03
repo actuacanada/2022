@@ -50,7 +50,7 @@
     --button-secondary__color: var(--c-cobalt);
 }
 :root .cog-cognito .cog-button {
-  font-weight: bold;
+  font-weight: bold!important;
 }
 :root .cog-cognito .cog-button:hover {
   background-color: var(--c-blush)!important;
