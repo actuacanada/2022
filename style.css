@@ -69,6 +69,6 @@
   padding-left: 1em!important;
   min-width:120px!important;
 }
-:root .cog-cognito .cog-checkable .el-checkbox{
-  padding-left: none!important;
+:root .cog-checkable .el-checkbox {
+  padding-left: 0!important;
 }
