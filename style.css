@@ -72,3 +72,6 @@
 :root .cog-checkable .el-checkbox {
   padding-left: 0!important;
 }
+:root .cog-checkable .el-checkbox__label {
+   padding-left: calc(var(--font-size) + var(--checkable__scale) * var(--font-size));
+}
