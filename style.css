@@ -22,8 +22,8 @@
     --label__font-family: var(--default-fonts);
     --button-primary__font-family: var(--default-fonts);
     --button-secondary__font-family: var(--default-fonts);
-
-    /*FONT SIZES*/
+  
+      /*FONT SIZES*/
     --font-size: var(--default-font-size);
     --default-font-size: 1.1em;
     --h2__font-size: 1.5em;
@@ -62,6 +62,10 @@
 }
 :root .cog-cognito h2{
   font-weight:500!important;
+}
+
+:root .cog-section__heading {
+  font-weight: bold!important;
 }
 :root .cog-cognito .cog-rating-scale table thead th  {
   vertical-align: middle!important;
