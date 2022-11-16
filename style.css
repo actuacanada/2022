@@ -64,7 +64,7 @@
   font-weight:500!important;
 }
 
-:root .cog-section__heading {
+:root .cog-cognito .cog-section__heading {
   font-weight: bold!important;
 }
 :root .cog-cognito .cog-rating-scale table thead th  {
