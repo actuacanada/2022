@@ -1,6 +1,6 @@
 :root .cog-cognito {
   /*COLOURS*/
-  --c-seafom: #00b8a9;
+  --c-seafoam: #00b8a9;
   --c-cobalt: #03036d;
   --c-oxford: #0f1757;
   --c-charcoal: #303030;
@@ -62,7 +62,7 @@
 }
 :root .cog-cognito h2{
   font-weight:500!important;
-  color: var(--c-periwinkle)!important;;
+  color: var(--c-periwinkle)!important;
 }
 :root .cog-cognito h3{
   color: var(--c-seafoam)!important;
