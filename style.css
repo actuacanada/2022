@@ -27,8 +27,6 @@
     --font-size: var(--default-font-size);
     --default-font-size: 1.1em;
     --h2__font-size: 1.5em;
-    --h2__font-color: var(--c-periwinkle);
-    --h3__font-color: var(--c-seafoam);
 
     /*FONT WEIGHTS*/
     --a__font-weight: bold;
@@ -64,7 +62,12 @@
 }
 :root .cog-cognito h2{
   font-weight:500!important;
+  color: var(--c-periwinkle)!important;;
 }
+:root .cog-cognito h3{
+  color: var(--c-seafoam)!important;;
+}
+
 
 :root .cog-cognito .cog-section__heading {
   font-weight: bold!important;
