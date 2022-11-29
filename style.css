@@ -27,6 +27,8 @@
     --font-size: var(--default-font-size);
     --default-font-size: 1.1em;
     --h2__font-size: 1.5em;
+    --h2__font-color: var(--c-periwinkle);
+    --h3__font-color: var(--c-seafoam);
 
     /*FONT WEIGHTS*/
     --a__font-weight: bold;
