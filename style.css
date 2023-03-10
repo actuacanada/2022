@@ -67,13 +67,8 @@
 :root .cog-cognito h3{
   color: var(--c-seafoam)!important;
 }
-:root .cog-cognito h4{
- display: block;
-    padding-top: calc(var(--gutter)/4);
-    color: var(--label__color, inherit);
-    font-family: var(--label__font-family, inherit);
-    font-size: var(--label__font-size, inherit);
-    font-weight: var(--label__font-weight, normal);
+:root .cog-cognito--styled h4
+     font-size: var(--label__font-size);
 }
 
 
