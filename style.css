@@ -68,7 +68,8 @@
   color: var(--c-seafoam)!important;
 }
 :root .cog-cognito h4{
-     font-size: var(--label__font-size)!important;
+  font-size: var(--label__font-size)!important;
+  margin-bottom: -15px;
 }
 
 
