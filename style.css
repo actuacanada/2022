@@ -69,7 +69,7 @@
 }
 :root .cog-cognito h4{
   font-size: var(--label__font-size)!important;
-  margin-bottom: -15px;
+  margin-bottom: -15px!important;
 }
 
 
