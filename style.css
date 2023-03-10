@@ -67,7 +67,7 @@
 :root .cog-cognito h3{
   color: var(--c-seafoam)!important;
 }
-:root .cog-cognito .cog-cognito--styled h4{
+:root .cog-cognito h4{
      font-size: var(--label__font-size)!important;
 }
 
